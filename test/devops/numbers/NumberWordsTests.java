@@ -19,7 +19,7 @@ public class NumberWordsTests {
 	
 	@Test
 	public void numberRangeList() {
-		Assert.assertEquals( "18", "Eighteen", numberWords.toWords(18) ) ;
+		Assert.assertEquals( "18", "Eighteen", numberWords.toWords(55) ) ;
 	}
 	@Test
 	public void numberRangeTenslist() {
