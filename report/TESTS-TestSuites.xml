@@ -1,8 +1,0 @@
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Sample">
-	<test name="tt">
-		<classes>
-			<class name="devops.numbers.NumberWordsTests" />
-		</classes>
-	</test>
-</suite>
