@@ -1,7 +1,8 @@
-<testsuites>
-    <testsuite name="numbers" tests="9" failures="0" timestamp="2012-08-23T14:40:44.874443-05:00">
-     <testcase name="numberRangeList" classname="devops.numbers.NumberWordsTests "/>
-     
-    </testsuite>
-   
-</testsuites>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sample">
+	<test name="tt">
+		<classes>
+			<class name="devops.numbers.NumberWordsTests" />
+		</classes>
+	</test>
+</suite>
