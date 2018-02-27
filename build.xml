@@ -30,7 +30,7 @@
            </fileset>
         </batchtest>
       </junit>
-      <formatter type="xml">
+      <formatter type="xml"/>
    </target>
    <target name="dist" depends="test">
       <manifestclasspath property="manifest.classpath" jarfile="${jar.file}">
