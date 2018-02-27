@@ -20,7 +20,6 @@
       </javac>
    </target>
    <target name="test" depends="compile">
-      <junit printsummary="yes" haltonfailure="yes">
         <classpath refid="class.path"/>
         <classpath location="bin"/>
         <formatter type="plain"/>
@@ -29,7 +28,6 @@
               <include name="**/*java"/>
            </fileset>
         </batchtest>
-      </junit>
       <formatter type="xml"/>
    </target>
    <target name="dist" depends="test">
