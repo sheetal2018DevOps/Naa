@@ -14,7 +14,7 @@ public class NumberWordsTests {
 
 	@Test
 	public void numberOutOfRange() {
-		Assert.assertEquals( "-1", "Number out of Range", numberWords.toWords(-9) ) ;
+		Assert.assertEquals( "-1", "Number out of Range", numberWords.toWords(-1) ) ;
 	}
 	
 	@Test
